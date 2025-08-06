@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>ID CARD</title>
+        <style>body{
+            background-color: pink;
+            font-family: arial,sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card{
+            background-color: whitesmoke;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 1px;
+            box-shadow: srgb(230, 230, 4);
+            transition: tranform 0.5s;
+        }
+        .card:hover{
+            transform: scale(1.05);
+        }
+        .Card img {
+            object-fit: cover;
+            border-radius: 1%;
+            border:4px debug-black;
+            margin-bottom:1px ;
+        }
+        .card h2 {
+            color:rgb(236, 14, 51);
+            margin:10px 0;
+        }
+        .card p{
+            color:#064fed;
+            font-size:18px;
+        }
+        .card button {
+            padding:10px 20px;
+            border:none;
+            background:skyblue;
+            color:rgb(167,11,167);
+            font-size:16px;
+            border-radius:25px;
+            cursor: pointer;
+            transition:background 0.5s;
+        }
+        .card button:hover {
+            background:orangered
+        }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="Photo_page-0001.jpg"/>
+        <h2>DINESH M</h2>
+        <P> WEB DEVELOPER </P>
+        <button>Click</button>
+        </div>
+    </body>
+</html>
+
